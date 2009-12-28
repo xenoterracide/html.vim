@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:	HTML
-" Maintainer:	Claudio Fleiner <claudio@fleiner.com>
-" URL:		http://www.fleiner.com/vim/syntax/html.vim
-" Last Change:  2006 Jun 19
+" Maintainer:	Caleb Cushing <xenoterracide@gmail.com>
+" URL:		http://github.com/xenoterracide/html.vim/blob/master/html.vim
+" Last Change:  2009 Dec 28
 
 " Please check :help html.vim for some comments and a description of the options
 
