@@ -59,6 +59,9 @@ syn keyword htmlTagName contained abbr acronym bdo button col label
 syn keyword htmlTagName contained colgroup del fieldset iframe ins legend
 syn keyword htmlTagName contained object optgroup q s tbody tfoot thead
 
+" new html 5.0 tags
+syn keyword htmlTagName contained nav
+
 " legal arg names
 syn keyword htmlArg contained action
 syn keyword htmlArg contained align alink alt archive background bgcolor
@@ -92,6 +95,9 @@ syn keyword htmlArg contained headers hreflang lang language longdesc
 syn keyword htmlArg contained multiple nohref nowrap object profile readonly
 syn keyword htmlArg contained rules scheme scope span standby style
 syn keyword htmlArg contained summary tabindex valuetype version
+
+" html 5.0 arg names
+syn keyword htmlArg contained nav
 
 " special characters
 syn match htmlSpecialChar "&#\=[0-9A-Za-z]\{1,8};"
