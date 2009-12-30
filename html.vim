@@ -2,7 +2,7 @@
 " Language:	HTML
 " Maintainer:	Caleb Cushing <xenoterracide@gmail.com>
 " URL:		http://github.com/xenoterracide/html.vim/blob/master/html.vim
-" Last Change:  2009 Dec 28
+" Last Change:  2009 Dec 30
 
 " Please check :help html.vim for some comments and a description of the options
 
@@ -60,7 +60,7 @@ syn keyword htmlTagName contained colgroup del fieldset iframe ins legend
 syn keyword htmlTagName contained object optgroup q s tbody tfoot thead
 
 " new html 5.0 tags
-syn keyword htmlTagName contained nav
+syn keyword htmlTagName contained article nav
 
 " legal arg names
 syn keyword htmlArg contained action
@@ -97,7 +97,7 @@ syn keyword htmlArg contained rules scheme scope span standby style
 syn keyword htmlArg contained summary tabindex valuetype version
 
 " html 5.0 arg names
-syn keyword htmlArg contained nav
+syn keyword htmlArg contained article nav
 
 " special characters
 syn match htmlSpecialChar "&#\=[0-9A-Za-z]\{1,8};"
