@@ -60,7 +60,7 @@ syn keyword htmlTagName contained colgroup del fieldset iframe ins legend
 syn keyword htmlTagName contained object optgroup q s tbody tfoot thead
 
 " new html 5.0 tags
-syn keyword htmlTagName contained article footer header nav section
+syn keyword htmlTagName contained article audio footer header nav section
 
 " legal arg names
 syn keyword htmlArg contained action
@@ -97,7 +97,7 @@ syn keyword htmlArg contained rules scheme scope span standby style
 syn keyword htmlArg contained summary tabindex valuetype version
 
 " html 5.0 arg names
-syn keyword htmlArg contained article footer header nav section
+syn keyword htmlArg contained article audio footer header nav section
 
 " special characters
 syn match htmlSpecialChar "&#\=[0-9A-Za-z]\{1,8};"
