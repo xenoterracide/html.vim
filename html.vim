@@ -60,7 +60,12 @@ syn keyword htmlTagName contained colgroup del fieldset iframe ins legend
 syn keyword htmlTagName contained object optgroup q s tbody tfoot thead
 
 " new html 5.0 tags
-syn keyword htmlTagName contained article audio footer header nav section
+syn keyword htmlTagName contained article footer header nav section aside details hgroup
+syn keyword htmlTagName contained output progress rp rt ruby source summary
+syn keyword htmlTagName contained time meter
+syn keyword htmlTagName contained audio video canvas embed figure figcaption
+syn keyword htmlTagName contained command datalist keygen mark
+
 
 " legal arg names
 syn keyword htmlArg contained action
@@ -98,6 +103,11 @@ syn keyword htmlArg contained summary tabindex valuetype version
 
 " html 5.0 arg names
 syn keyword htmlArg contained article audio footer header nav section
+syn keyword htmlArg contained article footer header nav section aside details hgroup
+syn keyword htmlArg contained output progress rp rt ruby source summary
+syn keyword htmlArg contained time meter
+syn keyword htmlArg contained audio video canvas embed figure figcaption
+syn keyword htmlArg contained command datalist keygen mark
 
 " special characters
 syn match htmlSpecialChar "&#\=[0-9A-Za-z]\{1,8};"
